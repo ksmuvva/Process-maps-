@@ -1,0 +1,279 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0" version="29.0.3">
+  <diagram name="RACI Process Map" id="raci-process-map">
+    <mxGraphModel dx="938" dy="2266" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2200" pageHeight="1600" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" value="AI/ML Project Process Map - RACI Based" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;fontSize=20;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="720" y="-123" width="800" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="p1" value="PHASE 1: INITIATION" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#000000;fontColor=#ffffff;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="80" y="80" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="p2" value="PHASE 2: DATA" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#000000;fontColor=#ffffff;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="390" y="80" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="p3" value="PHASE 3: MODEL DEV" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#000000;fontColor=#ffffff;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="700" y="80" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="p4" value="PHASE 4: VALIDATION" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#000000;fontColor=#ffffff;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="1010" y="80" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="p5" value="PHASE 5: TESTING" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#000000;fontColor=#ffffff;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="1320" y="80" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="p6" value="PHASE 6: DEPLOYMENT" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#000000;fontColor=#ffffff;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="1630" y="80" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pm-lane" value="PROJECT MANAGEMENT" style="swimlane;startSize=30;fillColor=#dae8fc;strokeColor=#2962ff;fontStyle=1;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="40" y="130" width="2050" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="pm1" value="Initiate" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#bbdefb;strokeColor=#1976d2;shadow=1;" parent="pm-lane" vertex="1">
+          <mxGeometry x="50" y="45" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pm2" value="Allocate Resources" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#bbdefb;strokeColor=#1976d2;shadow=1;" parent="pm-lane" vertex="1">
+          <mxGeometry x="180" y="45" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gate1" value="Req Gate" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ff6b6b;strokeColor=#c92a2a;fontStyle=1;shadow=1;" parent="pm-lane" vertex="1">
+          <mxGeometry x="310" y="35" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pm3" value="Sprint Planning" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#bbdefb;strokeColor=#1976d2;shadow=1;" parent="pm-lane" vertex="1">
+          <mxGeometry x="660" y="45" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pm4" value="Risk Mgmt" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#bbdefb;strokeColor=#1976d2;shadow=1;" parent="pm-lane" vertex="1">
+          <mxGeometry x="970" y="45" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gate2" value="Model Gate" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ff6b6b;strokeColor=#c92a2a;fontStyle=1;shadow=1;" parent="pm-lane" vertex="1">
+          <mxGeometry x="1100" y="35" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pm5" value="Stakeholder Updates" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#bbdefb;strokeColor=#1976d2;shadow=1;" parent="pm-lane" vertex="1">
+          <mxGeometry x="1280" y="45" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gate3" value="UAT Gate" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ff6b6b;strokeColor=#c92a2a;fontStyle=1;shadow=1;" parent="pm-lane" vertex="1">
+          <mxGeometry x="1550" y="35" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pm6" value="Closure" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#bbdefb;strokeColor=#1976d2;shadow=1;" parent="pm-lane" vertex="1">
+          <mxGeometry x="1880" y="45" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="ba-lane" value="BUSINESS ANALYSIS" style="swimlane;startSize=30;fillColor=#fff3cd;strokeColor=#f59f00;fontStyle=1;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="40" y="230" width="2050" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="ba1" value="Define Problem (R,A)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe066;strokeColor=#d9a500;shadow=1;strokeWidth=2;" parent="ba-lane" vertex="1">
+          <mxGeometry x="50" y="50" width="100" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="ba2" value="Use Cases (R,A)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe066;strokeColor=#d9a500;shadow=1;strokeWidth=2;" parent="ba-lane" vertex="1">
+          <mxGeometry x="180" y="50" width="100" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="ba3" value="Success Metrics (R,A)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffd43b;strokeColor=#d9a500;fontStyle=1;shadow=1;strokeWidth=3;" parent="ba-lane" vertex="1">
+          <mxGeometry x="310" y="45" width="100" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="ba4" value="Requirements Doc (R,A)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe066;strokeColor=#d9a500;shadow=1;strokeWidth=2;" parent="ba-lane" vertex="1">
+          <mxGeometry x="440" y="50" width="100" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="ba5" value="UAT Coordination (R,A)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffd43b;strokeColor=#d9a500;fontStyle=1;shadow=1;strokeWidth=3;" parent="ba-lane" vertex="1">
+          <mxGeometry x="1410" y="50" width="100" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="ds-lane" value="DATA SCIENCE" style="swimlane;startSize=30;fillColor=#d3f9d8;strokeColor=#2f9e44;fontStyle=1;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="40" y="350" width="2050" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="ds1" value="Feasibility (R,A)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#96f2b4;strokeColor=#2b8a3e;shadow=1;strokeWidth=2;" parent="ds-lane" vertex="1">
+          <mxGeometry x="350" y="50" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ds2" value="Data Collection (R,A)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#96f2b4;strokeColor=#2b8a3e;shadow=1;strokeWidth=2;" parent="ds-lane" vertex="1">
+          <mxGeometry x="480" y="50" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ds3" value="Data Cleaning (R,A)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#96f2b4;strokeColor=#2b8a3e;shadow=1;strokeWidth=2;" parent="ds-lane" vertex="1">
+          <mxGeometry x="610" y="50" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ds4" value="EDA Analysis (R,A)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#63e6be;strokeColor=#2b8a3e;fontStyle=1;shadow=1;strokeWidth=3;" parent="ds-lane" vertex="1">
+          <mxGeometry x="740" y="45" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ds5" value="Feature Eng (R,A)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#63e6be;strokeColor=#2b8a3e;fontStyle=1;shadow=1;strokeWidth=3;" parent="ds-lane" vertex="1">
+          <mxGeometry x="870" y="45" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ds6" value="Model Training (R,A)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#63e6be;strokeColor=#2b8a3e;fontStyle=1;shadow=1;strokeWidth=3;" parent="ds-lane" vertex="1">
+          <mxGeometry x="1000" y="45" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ds7" value="Evaluation (R,A)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#96f2b4;strokeColor=#2b8a3e;shadow=1;strokeWidth=2;" parent="ds-lane" vertex="1">
+          <mxGeometry x="1130" y="50" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ds8" value="Bias Analysis (R,A JOINT)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffd43b;strokeColor=#f59f00;fontStyle=1;shadow=1;strokeWidth=3;dashed=1;" parent="ds-lane" vertex="1">
+          <mxGeometry x="1130" y="105" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ds9" value="Fine-tuning (R,A)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#96f2b4;strokeColor=#2b8a3e;shadow=1;strokeWidth=2;" parent="ds-lane" vertex="1">
+          <mxGeometry x="1260" y="50" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ml-lane" value="ML/AI ENGINEERING" style="swimlane;startSize=30;fillColor=#e7f5ff;strokeColor=#1971c2;fontStyle=1;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="40" y="510" width="2050" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="ml1" value="Architecture (R,A)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#a5d8ff;strokeColor=#1864ab;shadow=1;strokeWidth=2;" parent="ml-lane" vertex="1">
+          <mxGeometry x="1000" y="50" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ml2" value="Pipeline Dev (R,A)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#74c0fc;strokeColor=#1864ab;fontStyle=1;shadow=1;strokeWidth=3;" parent="ml-lane" vertex="1">
+          <mxGeometry x="1130" y="45" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ml3" value="Optimization (R,A)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#a5d8ff;strokeColor=#1864ab;shadow=1;strokeWidth=2;" parent="ml-lane" vertex="1">
+          <mxGeometry x="1260" y="50" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ml4" value="API Dev (R,A)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#74c0fc;strokeColor=#1864ab;fontStyle=1;shadow=1;strokeWidth=3;" parent="ml-lane" vertex="1">
+          <mxGeometry x="1390" y="45" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ml5" value="Deployment (R,A)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#74c0fc;strokeColor=#1864ab;fontStyle=1;shadow=1;strokeWidth=3;" parent="ml-lane" vertex="1">
+          <mxGeometry x="1680" y="45" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ml6" value="MLOps (R,A)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#a5d8ff;strokeColor=#1864ab;shadow=1;strokeWidth=2;" parent="ml-lane" vertex="1">
+          <mxGeometry x="1810" y="50" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="qat-lane" value="QUALITY ASSURANCE AND TESTING" style="swimlane;startSize=30;fillColor=#ffe8e8;strokeColor=#c92a2a;fontStyle=1;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="40" y="630" width="2050" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="qat1" value="Test Strategy (R,A)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffc9c9;strokeColor=#c92a2a;shadow=1;strokeWidth=2;" parent="qat-lane" vertex="1">
+          <mxGeometry x="480" y="50" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="qat2" value="Data Quality (R,A)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffc9c9;strokeColor=#c92a2a;shadow=1;strokeWidth=2;" parent="qat-lane" vertex="1">
+          <mxGeometry x="610" y="50" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="qat3" value="Test Data (R,A)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffc9c9;strokeColor=#c92a2a;shadow=1;strokeWidth=2;" parent="qat-lane" vertex="1">
+          <mxGeometry x="740" y="50" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="qat4" value="Model Validation (R,A)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ff8787;strokeColor=#c92a2a;fontStyle=1;shadow=1;strokeWidth=3;" parent="qat-lane" vertex="1">
+          <mxGeometry x="1000" y="45" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="qat5" value="Bias Testing (R,A JOINT)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffd43b;strokeColor=#f59f00;fontStyle=1;shadow=1;strokeWidth=3;dashed=1;" parent="qat-lane" vertex="1">
+          <mxGeometry x="1130" y="45" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="qat6" value="Hallucination (R,A)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffc9c9;strokeColor=#c92a2a;shadow=1;strokeWidth=2;" parent="qat-lane" vertex="1">
+          <mxGeometry x="1000" y="105" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="qat7" value="RAG Testing (R,A)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffc9c9;strokeColor=#c92a2a;shadow=1;strokeWidth=2;" parent="qat-lane" vertex="1">
+          <mxGeometry x="1130" y="105" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="qat8" value="Robustness (R,A)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffc9c9;strokeColor=#c92a2a;shadow=1;strokeWidth=2;" parent="qat-lane" vertex="1">
+          <mxGeometry x="1260" y="50" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="qat9" value="Integration (R,A)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ff8787;strokeColor=#c92a2a;fontStyle=1;shadow=1;strokeWidth=3;" parent="qat-lane" vertex="1">
+          <mxGeometry x="1390" y="45" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="qat10" value="UAT (R,A)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ff8787;strokeColor=#c92a2a;fontStyle=1;shadow=1;strokeWidth=3;" parent="qat-lane" vertex="1">
+          <mxGeometry x="1540" y="45" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="qat11" value="Performance (R,A)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffc9c9;strokeColor=#c92a2a;shadow=1;strokeWidth=2;" parent="qat-lane" vertex="1">
+          <mxGeometry x="1540" y="105" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="qat12" value="Security (R,A)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ff8787;strokeColor=#c92a2a;fontStyle=1;shadow=1;strokeWidth=3;" parent="qat-lane" vertex="1">
+          <mxGeometry x="1680" y="45" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="qat13" value="A/B Testing (R,A JOINT)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffd43b;strokeColor=#f59f00;fontStyle=1;shadow=1;strokeWidth=3;dashed=1;" parent="qat-lane" vertex="1">
+          <mxGeometry x="1260" y="105" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="qat14" value="Sign-off (R,A)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffc9c9;strokeColor=#c92a2a;shadow=1;strokeWidth=2;" parent="qat-lane" vertex="1">
+          <mxGeometry x="1810" y="50" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="e1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeWidth=2;strokeColor=#1976d2;" parent="1" source="pm1" target="pm2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeWidth=2;strokeColor=#1976d2;" parent="1" source="pm2" target="gate1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeWidth=2;strokeColor=#1976d2;" parent="1" source="gate1" target="pm3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeWidth=2;strokeColor=#d9a500;" parent="1" source="ba1" target="ba2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeWidth=3;strokeColor=#d9a500;" parent="1" source="ba2" target="ba3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeWidth=2;strokeColor=#d9a500;" parent="1" source="ba3" target="ba4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeWidth=2;strokeColor=#2b8a3e;" parent="1" source="ds1" target="ds2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeWidth=2;strokeColor=#2b8a3e;" parent="1" source="ds2" target="ds3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeWidth=3;strokeColor=#2b8a3e;" parent="1" source="ds3" target="ds4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeWidth=3;strokeColor=#2b8a3e;" parent="1" source="ds4" target="ds5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeWidth=3;strokeColor=#2b8a3e;" parent="1" source="ds5" target="ds6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeWidth=2;strokeColor=#2b8a3e;" parent="1" source="ds6" target="ds7" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeWidth=3;strokeColor=#1864ab;" parent="1" source="ml1" target="ml2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeWidth=2;strokeColor=#1864ab;" parent="1" source="ml2" target="ml3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeWidth=3;strokeColor=#1864ab;" parent="1" source="ml3" target="ml4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeWidth=2;strokeColor=#c92a2a;" parent="1" source="qat1" target="qat2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeWidth=2;strokeColor=#c92a2a;" parent="1" source="qat2" target="qat3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeWidth=3;strokeColor=#c92a2a;" parent="1" source="qat3" target="qat4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="h1" value="Requirements" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeWidth=4;strokeColor=#ff6b6b;fontSize=10;fontStyle=1;" parent="1" source="ba4" target="ds1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="h2" value="Metrics" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeWidth=4;strokeColor=#ff6b6b;fontSize=10;fontStyle=1;" parent="1" source="ba3" target="qat1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="h3" value="Test Data" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeWidth=4;strokeColor=#ff6b6b;fontSize=10;fontStyle=1;" parent="1" source="ds3" target="qat2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="h4" value="Model" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeWidth=4;strokeColor=#ff6b6b;fontSize=10;fontStyle=1;" parent="1" source="ds7" target="qat4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="h5" value="Handoff" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeWidth=4;strokeColor=#ff6b6b;fontSize=10;fontStyle=1;" parent="1" source="ds9" target="ml1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="h6" value="Deploy Pkg" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeWidth=4;strokeColor=#ff6b6b;fontSize=10;fontStyle=1;" parent="1" source="ml4" target="qat9" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="h7" value="UAT" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeWidth=4;strokeColor=#ff6b6b;fontSize=10;fontStyle=1;" parent="1" source="ba5" target="qat10" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="h8" value="Sign-off" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeWidth=4;strokeColor=#ff6b6b;fontSize=10;fontStyle=1;" parent="1" source="qat14" target="pm6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="j1" value="JOINT" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeWidth=4;strokeColor=#f59f00;dashed=1;fontSize=10;fontStyle=1;" parent="1" source="ds8" target="qat5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="g1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeWidth=2;strokeColor=#ff6b6b;dashed=1;" parent="1" source="ba3" target="gate1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="g2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeWidth=2;strokeColor=#ff6b6b;dashed=1;" parent="1" source="qat5" target="gate2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="g3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeWidth=2;strokeColor=#ff6b6b;dashed=1;" parent="1" source="qat10" target="gate3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="par1" value="PARALLEL" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeWidth=2;strokeColor=#7950f2;dashed=1;fontSize=9;" parent="1" source="ds2" target="qat1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fb" value="Feedback" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;strokeWidth=2;strokeColor=#e03131;dashed=1;fontSize=9;" parent="1" source="ds9" target="ds6" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1350" y="530" />
+              <mxPoint x="1090" y="530" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="legend" value="LEGEND: Thick borders=Critical path | Red diamonds=Decision gates | Red thick lines=Key handoffs | Yellow-orange dashed=Joint ownership (R,A by both teams) | Purple dashed=Parallel activities | Red dashed=Feedback loop" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8f9fa;align=left;verticalAlign=middle;fontSize=10;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="80" y="900" width="1880" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
