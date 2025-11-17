@@ -1,0 +1,285 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0" version="29.0.3">
+  <diagram name="Simplified RACI Process Map" id="raci-process-flow">
+    <mxGraphModel dx="938" dy="666" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1800" pageHeight="1200" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" value="AI/ML Project Process Map (RACI-Based)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=18;" parent="1" vertex="1">
+          <mxGeometry x="600" y="10" width="500" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="pm-lane" value="Project Management (Accountable Across All Phases)" style="swimlane;startSize=40;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=13;" parent="1" vertex="1">
+          <mxGeometry x="40" y="60" width="1720" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="pm-1" value="Initiate Project&#xa;&amp; Allocate Resources&#xa;(A)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;" parent="pm-lane" vertex="1">
+          <mxGeometry x="40" y="60" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pm-2" value="Coordinate&#xa;Requirements (I)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;" parent="pm-lane" vertex="1">
+          <mxGeometry x="250" y="60" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pm-3" value="Sprint Planning&#xa;&amp; Tracking (R,A)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;" parent="pm-lane" vertex="1">
+          <mxGeometry x="460" y="60" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pm-4" value="Risk Management&#xa;&amp; Mitigation (R,A)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;" parent="pm-lane" vertex="1">
+          <mxGeometry x="670" y="60" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pm-5" value="Stakeholder&#xa;Communication (R,A)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;" parent="pm-lane" vertex="1">
+          <mxGeometry x="880" y="60" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pm-6" value="Review &amp; Approve&#xa;Deliverables (A)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;" parent="pm-lane" vertex="1">
+          <mxGeometry x="1300" y="60" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pm-7" value="Project Closure&#xa;&amp; Handover (A)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;" parent="pm-lane" vertex="1">
+          <mxGeometry x="1510" y="60" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ba-lane" value="Business Analysis Team" style="swimlane;startSize=40;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;fontSize=13;" parent="1" vertex="1">
+          <mxGeometry x="40" y="200" width="1720" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="ba-1" value="Define Business&#xa;Problem (R,A)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontStyle=1;" parent="ba-lane" vertex="1">
+          <mxGeometry x="250" y="60" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ba-2" value="Define Use Cases&#xa;&amp; Requirements (R,A)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontStyle=1;" parent="ba-lane" vertex="1">
+          <mxGeometry x="460" y="60" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ba-3" value="Define Success&#xa;Metrics (R,A)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontStyle=1;" parent="ba-lane" vertex="1">
+          <mxGeometry x="670" y="60" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ba-4" value="Requirements&#xa;Documentation (R,A)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontStyle=1;" parent="ba-lane" vertex="1">
+          <mxGeometry x="880" y="60" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ba-5" value="UAT Coordination&#xa;&amp; Support (R,A)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontStyle=1;" parent="ba-lane" vertex="1">
+          <mxGeometry x="1300" y="60" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ds-lane" value="Data Science Team" style="swimlane;startSize=40;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1;fontSize=13;" parent="1" vertex="1">
+          <mxGeometry x="40" y="340" width="1720" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="ds-1" value="Technical Feasibility&#xa;&amp; Model Requirements (R,A)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;" parent="ds-lane" vertex="1">
+          <mxGeometry x="460" y="60" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ds-2" value="Data Collection,&#xa;Cleaning &amp; Analysis (R,A)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;" parent="ds-lane" vertex="1">
+          <mxGeometry x="670" y="60" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ds-3" value="Feature Engineering&#xa;&amp; EDA (R,A)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;" parent="ds-lane" vertex="1">
+          <mxGeometry x="880" y="60" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ds-4" value="Model Selection&#xa;&amp; Training (R,A)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;" parent="ds-lane" vertex="1">
+          <mxGeometry x="1090" y="60" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ds-5" value="Model Evaluation&#xa;&amp; Fine-tuning (R,A)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;" parent="ds-lane" vertex="1">
+          <mxGeometry x="1300" y="60" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ds-6" value="Bias/Fairness&#xa;Analysis (R,A - Joint)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff4e6;strokeColor=#d79b00;fontStyle=1;dashed=1;dashPattern=5 5;" parent="ds-lane" vertex="1">
+          <mxGeometry x="1090" y="100" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ml-lane" value="ML/AI Engineering Team" style="swimlane;startSize=40;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1;fontSize=13;" parent="1" vertex="1">
+          <mxGeometry x="40" y="520" width="1720" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="ml-1" value="Model Architecture&#xa;&amp; Pipeline Design (R,A)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontStyle=1;" parent="ml-lane" vertex="1">
+          <mxGeometry x="880" y="60" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ml-2" value="Model Optimization&#xa;&amp; Productionization (R,A)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontStyle=1;" parent="ml-lane" vertex="1">
+          <mxGeometry x="1090" y="60" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ml-3" value="API Development&#xa;&amp; Integration (R,A)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontStyle=1;" parent="ml-lane" vertex="1">
+          <mxGeometry x="1300" y="60" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ml-4" value="Deployment &amp;&#xa;MLOps Setup (R,A)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontStyle=1;" parent="ml-lane" vertex="1">
+          <mxGeometry x="1510" y="60" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qat-lane" value="Quality Assurance &amp; Testing Team" style="swimlane;startSize=40;fillColor=#f5f5f5;strokeColor=#666666;fontStyle=1;fontSize=13;" parent="1" vertex="1">
+          <mxGeometry x="40" y="660" width="1720" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="qat-1" value="Test Strategy&#xa;&amp; Planning (R,A)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1;" parent="qat-lane" vertex="1">
+          <mxGeometry x="460" y="60" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qat-2" value="Data Quality&#xa;Testing (R,A)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1;" parent="qat-lane" vertex="1">
+          <mxGeometry x="670" y="60" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qat-3" value="Model Validation&#xa;&amp; Output Testing (R,A)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1;" parent="qat-lane" vertex="1">
+          <mxGeometry x="880" y="60" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qat-4" value="Bias/Fairness&#xa;Testing (R,A - Joint)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff4e6;strokeColor=#d79b00;fontStyle=1;dashed=1;dashPattern=5 5;" parent="qat-lane" vertex="1">
+          <mxGeometry x="1090" y="60" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qat-5" value="Integration &amp;&#xa;System Testing (R,A)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1;" parent="qat-lane" vertex="1">
+          <mxGeometry x="1090" y="140" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qat-6" value="UAT Execution&#xa;&amp; Support (R,A)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1;" parent="qat-lane" vertex="1">
+          <mxGeometry x="1300" y="140" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qat-7" value="Security &amp; Performance&#xa;Testing (R,A)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1;" parent="qat-lane" vertex="1">
+          <mxGeometry x="1510" y="140" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pm-flow-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#6c8ebf;" parent="1" source="pm-1" target="pm-2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pm-flow-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#6c8ebf;" parent="1" source="pm-2" target="pm-3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pm-flow-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#6c8ebf;" parent="1" source="pm-3" target="pm-4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pm-flow-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#6c8ebf;" parent="1" source="pm-4" target="pm-5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ba-flow-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#d79b00;" parent="1" source="ba-1" target="ba-2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ba-flow-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#d79b00;" parent="1" source="ba-2" target="ba-3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ba-flow-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#d79b00;" parent="1" source="ba-3" target="ba-4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ds-flow-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#82b366;" parent="1" source="ds-1" target="ds-2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ds-flow-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#82b366;" parent="1" source="ds-2" target="ds-3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ds-flow-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#82b366;" parent="1" source="ds-3" target="ds-4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ds-flow-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#82b366;" parent="1" source="ds-4" target="ds-5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ml-flow-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#d79b00;" parent="1" source="ml-1" target="ml-2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ml-flow-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#d79b00;" parent="1" source="ml-2" target="ml-3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ml-flow-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#d79b00;" parent="1" source="ml-3" target="ml-4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qat-flow-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#9673a6;" parent="1" source="qat-1" target="qat-2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qat-flow-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#9673a6;" parent="1" source="qat-2" target="qat-3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qat-flow-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#9673a6;" parent="1" source="qat-3" target="qat-4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qat-flow-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#9673a6;" parent="1" source="qat-4" target="qat-5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qat-flow-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#9673a6;" parent="1" source="qat-5" target="qat-6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qat-flow-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#9673a6;" parent="1" source="qat-6" target="qat-7" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="handoff-1" value="Requirements Kick-off" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=3;strokeColor=#FF6B6B;dashed=1;dashPattern=8 8;fontSize=11;fontStyle=1;" parent="1" source="pm-2" target="ba-1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="handoff-2" value="Requirements&#xa;Handoff" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=3;strokeColor=#FF6B6B;dashed=1;dashPattern=8 8;fontSize=11;fontStyle=1;" parent="1" source="ba-4" target="ds-1" edge="1">
+          <mxGeometry x="-0.2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="handoff-3" value="Requirements&#xa;for Testing" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=3;strokeColor=#FF6B6B;dashed=1;dashPattern=8 8;fontSize=11;fontStyle=1;" parent="1" source="ba-3" target="qat-1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="handoff-4" value="Data for&#xa;Testing" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=3;strokeColor=#FF6B6B;dashed=1;dashPattern=8 8;fontSize=11;fontStyle=1;" parent="1" source="ds-2" target="qat-2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="handoff-5" value="Model&#xa;Handoff" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=3;strokeColor=#FF6B6B;dashed=1;dashPattern=8 8;fontSize=11;fontStyle=1;" parent="1" source="ds-5" target="ml-1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="handoff-6" value="Model for&#xa;Validation" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=3;strokeColor=#FF6B6B;dashed=1;dashPattern=8 8;fontSize=11;fontStyle=1;" parent="1" source="ds-5" target="qat-3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="joint-1" value="Joint&#xa;Ownership" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=3;strokeColor=#FFA500;dashed=1;dashPattern=2 2;fontSize=11;fontStyle=1;" parent="1" source="ds-6" target="qat-4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="handoff-7" value="Deployment&#xa;Package" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=3;strokeColor=#FF6B6B;dashed=1;dashPattern=8 8;fontSize=11;fontStyle=1;" parent="1" source="ml-3" target="qat-5" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="handoff-8" value="UAT&#xa;Coordination" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=3;strokeColor=#FF6B6B;dashed=1;dashPattern=8 8;fontSize=11;fontStyle=1;" parent="1" source="ba-5" target="qat-6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="handoff-9" value="Test Results&#xa;&amp; Sign-off" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=3;strokeColor=#FF6B6B;dashed=1;dashPattern=8 8;fontSize=11;fontStyle=1;" parent="1" source="qat-7" target="pm-6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="handoff-10" value="Deployment&#xa;Complete" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=3;strokeColor=#FF6B6B;dashed=1;dashPattern=8 8;fontSize=11;fontStyle=1;" parent="1" source="ml-4" target="pm-7" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="legend-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="40" y="920" width="600" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="legend-title" value="LEGEND" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="240" y="930" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="legend-line-1" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#666666;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="60" y="980" as="sourcePoint" />
+            <mxPoint x="130" y="980" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="legend-text-1" value="Sequential Flow within Team" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="140" y="965" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="legend-line-2" value="" style="endArrow=classic;html=1;strokeWidth=3;strokeColor=#FF6B6B;dashed=1;dashPattern=8 8;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="60" y="1020" as="sourcePoint" />
+            <mxPoint x="130" y="1020" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="legend-text-2" value="Key Handoff between Teams" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="140" y="1005" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="legend-line-3" value="" style="endArrow=classic;html=1;strokeWidth=3;strokeColor=#FFA500;dashed=1;dashPattern=2 2;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="60" y="1060" as="sourcePoint" />
+            <mxPoint x="130" y="1060" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="legend-text-3" value="Joint Ownership (R,A by both teams)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="140" y="1045" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="raci-box" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;strokeWidth=1;" parent="1" vertex="1">
+          <mxGeometry x="380" y="975" width="240" height="145" as="geometry" />
+        </mxCell>
+        <mxCell id="raci-title" value="RACI Notation" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=13;" parent="1" vertex="1">
+          <mxGeometry x="420" y="980" width="160" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="raci-r" value="R = Responsible (Does the work)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="390" y="1010" width="220" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="raci-a" value="A = Accountable (Final authority)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="390" y="1035" width="220" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="raci-c" value="C = Consulted (Provides input)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="390" y="1060" width="220" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="raci-i" value="I = Informed (Kept updated)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" parent="1" vertex="1">
+          <mxGeometry x="390" y="1085" width="220" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="notes-box" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff9e6;strokeColor=#d6b656;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="680" y="920" width="1080" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="notes-title" value="KEY PROCESS NOTES (Based on RACI Analysis)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="880" y="930" width="680" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="note-1" value="1. Business Analysis defines WHAT needs to be built (requirements, use cases, success metrics)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="700" y="970" width="1040" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="note-2" value="2. Data Science defines HOW to build it technically (models, features, training approach)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="700" y="1000" width="1040" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="note-3" value="3. ML/AI Engineering makes it production-ready (pipelines, APIs, deployment, monitoring)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="700" y="1030" width="1040" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="note-4" value="4. QAT validates EVERYTHING (data quality, model performance, integration, security, UAT)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="700" y="1060" width="1040" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="note-5" value="5. Project Management orchestrates all teams and maintains accountability across the entire lifecycle" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=12;" parent="1" vertex="1">
+          <mxGeometry x="700" y="1090" width="1040" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="note-6" value="6. Bias/Fairness Testing is JOINTLY owned by Data Science (analysis) and QAT (validation) - both are R,A per RACI" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;fontSize=12;fontColor=#FF6600;fontStyle=1;" parent="1" vertex="1">
+          <mxGeometry x="700" y="1115" width="1040" height="25" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
