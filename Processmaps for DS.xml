@@ -1,0 +1,378 @@
+<mxfile host="app.diagrams.net" modified="2024-11-17T00:00:00.000Z" agent="Claude" version="21.0.0" etag="process-map-v1">
+  <diagram name="Team Process Map" id="process-flow-diagram">
+    <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1400" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+        
+        <!-- Swimlane: Project Management -->
+        <mxCell id="pm-lane" value="Project Management Team" style="swimlane;startSize=40;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="40" y="40" width="1520" height="200" as="geometry"/>
+        </mxCell>
+        
+        <!-- PM Activities -->
+        <mxCell id="pm-1" value="Project Initiation &amp; Planning" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;" vertex="1" parent="pm-lane">
+          <mxGeometry x="20" y="60" width="140" height="60" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="pm-2" value="Requirements Gathering" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;" vertex="1" parent="pm-lane">
+          <mxGeometry x="200" y="60" width="140" height="60" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="pm-3" value="Resource Allocation" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;" vertex="1" parent="pm-lane">
+          <mxGeometry x="380" y="60" width="140" height="60" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="pm-4" value="Sprint Planning &amp; Tracking" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;" vertex="1" parent="pm-lane">
+          <mxGeometry x="560" y="60" width="140" height="60" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="pm-5" value="Risk Management" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;" vertex="1" parent="pm-lane">
+          <mxGeometry x="740" y="60" width="140" height="60" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="pm-6" value="Stakeholder Communication" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;" vertex="1" parent="pm-lane">
+          <mxGeometry x="920" y="60" width="140" height="60" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="pm-7" value="Review &amp; Sign-off" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;" vertex="1" parent="pm-lane">
+          <mxGeometry x="1100" y="60" width="140" height="60" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="pm-8" value="Project Closure &amp; Documentation" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;" vertex="1" parent="pm-lane">
+          <mxGeometry x="1280" y="60" width="140" height="60" as="geometry"/>
+        </mxCell>
+        
+        <!-- Swimlane: Data Science -->
+        <mxCell id="ds-lane" value="Data Science Team" style="swimlane;startSize=40;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="40" y="240" width="1520" height="240" as="geometry"/>
+        </mxCell>
+        
+        <!-- DS Activities -->
+        <mxCell id="ds-1" value="Problem Definition &amp; Scoping" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontStyle=1;" vertex="1" parent="ds-lane">
+          <mxGeometry x="200" y="60" width="140" height="60" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="ds-2" value="Data Collection &amp; Acquisition" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontStyle=1;" vertex="1" parent="ds-lane">
+          <mxGeometry x="380" y="60" width="140" height="60" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="ds-3" value="Exploratory Data Analysis (EDA)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontStyle=1;" vertex="1" parent="ds-lane">
+          <mxGeometry x="560" y="60" width="140" height="60" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="ds-4" value="Data Cleaning &amp; Preprocessing" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontStyle=1;" vertex="1" parent="ds-lane">
+          <mxGeometry x="740" y="60" width="140" height="60" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="ds-5" value="Feature Engineering" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontStyle=1;" vertex="1" parent="ds-lane">
+          <mxGeometry x="920" y="60" width="140" height="60" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="ds-6" value="Model Prototyping" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontStyle=1;" vertex="1" parent="ds-lane">
+          <mxGeometry x="380" y="150" width="140" height="60" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="ds-7" value="Analysis &amp; Insights" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontStyle=1;" vertex="1" parent="ds-lane">
+          <mxGeometry x="560" y="150" width="140" height="60" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="ds-8" value="Documentation &amp; Handoff" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontStyle=1;" vertex="1" parent="ds-lane">
+          <mxGeometry x="740" y="150" width="140" height="60" as="geometry"/>
+        </mxCell>
+        
+        <!-- Swimlane: ML/AI Engineering -->
+        <mxCell id="ml-lane" value="ML/AI Engineering Team" style="swimlane;startSize=40;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="40" y="480" width="1520" height="280" as="geometry"/>
+        </mxCell>
+        
+        <!-- ML Activities -->
+        <mxCell id="ml-1" value="Model Architecture Design" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1;" vertex="1" parent="ml-lane">
+          <mxGeometry x="380" y="60" width="140" height="60" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="ml-2" value="Model Development &amp; Training" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1;" vertex="1" parent="ml-lane">
+          <mxGeometry x="560" y="60" width="140" height="60" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="ml-3" value="Hyperparameter Tuning" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1;" vertex="1" parent="ml-lane">
+          <mxGeometry x="740" y="60" width="140" height="60" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="ml-4" value="Model Evaluation &amp; Validation" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1;" vertex="1" parent="ml-lane">
+          <mxGeometry x="920" y="60" width="140" height="60" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="ml-5" value="Model Optimization" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1;" vertex="1" parent="ml-lane">
+          <mxGeometry x="380" y="150" width="140" height="60" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="ml-6" value="Pipeline Development" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1;" vertex="1" parent="ml-lane">
+          <mxGeometry x="560" y="150" width="140" height="60" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="ml-7" value="Model Deployment Prep" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1;" vertex="1" parent="ml-lane">
+          <mxGeometry x="740" y="150" width="140" height="60" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="ml-8" value="API/Service Development" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1;" vertex="1" parent="ml-lane">
+          <mxGeometry x="920" y="150" width="140" height="60" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="ml-9" value="Production Deployment" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1;" vertex="1" parent="ml-lane">
+          <mxGeometry x="1100" y="150" width="140" height="60" as="geometry"/>
+        </mxCell>
+        
+        <!-- Swimlane: QAT -->
+        <mxCell id="qat-lane" value="Quality Assurance &amp; Testing Team" style="swimlane;startSize=40;fillColor=#f5f5f5;strokeColor=#666666;fontStyle=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="40" y="760" width="1520" height="280" as="geometry"/>
+        </mxCell>
+        
+        <!-- QAT Activities -->
+        <mxCell id="qat-1" value="Test Strategy &amp; Planning" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1;" vertex="1" parent="qat-lane">
+          <mxGeometry x="380" y="60" width="140" height="60" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="qat-2" value="Data Quality Testing" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1;" vertex="1" parent="qat-lane">
+          <mxGeometry x="560" y="60" width="140" height="60" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="qat-3" value="Model Performance Testing" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1;" vertex="1" parent="qat-lane">
+          <mxGeometry x="740" y="60" width="140" height="60" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="qat-4" value="Bias &amp; Fairness Testing" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1;" vertex="1" parent="qat-lane">
+          <mxGeometry x="920" y="60" width="140" height="60" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="qat-5" value="Integration Testing" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1;" vertex="1" parent="qat-lane">
+          <mxGeometry x="560" y="150" width="140" height="60" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="qat-6" value="UAT (User Acceptance Testing)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1;" vertex="1" parent="qat-lane">
+          <mxGeometry x="740" y="150" width="140" height="60" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="qat-7" value="Performance &amp; Load Testing" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1;" vertex="1" parent="qat-lane">
+          <mxGeometry x="920" y="150" width="140" height="60" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="qat-8" value="Security Testing" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1;" vertex="1" parent="qat-lane">
+          <mxGeometry x="1100" y="150" width="140" height="60" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="qat-9" value="Test Reporting &amp; Sign-off" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1;" vertex="1" parent="qat-lane">
+          <mxGeometry x="1280" y="150" width="140" height="60" as="geometry"/>
+        </mxCell>
+        
+        <!-- Arrows - PM Flow -->
+        <mxCell id="arrow-pm-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#6c8ebf;" edge="1" parent="1" source="pm-1" target="pm-2">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="arrow-pm-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#6c8ebf;" edge="1" parent="1" source="pm-2" target="pm-3">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="arrow-pm-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#6c8ebf;" edge="1" parent="1" source="pm-3" target="pm-4">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="arrow-pm-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#6c8ebf;" edge="1" parent="1" source="pm-4" target="pm-5">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="arrow-pm-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#6c8ebf;" edge="1" parent="1" source="pm-5" target="pm-6">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="arrow-pm-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#6c8ebf;" edge="1" parent="1" source="pm-6" target="pm-7">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="arrow-pm-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#6c8ebf;" edge="1" parent="1" source="pm-7" target="pm-8">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        
+        <!-- Arrows - DS Flow -->
+        <mxCell id="arrow-ds-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#d79b00;" edge="1" parent="1" source="ds-1" target="ds-2">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="arrow-ds-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#d79b00;" edge="1" parent="1" source="ds-2" target="ds-3">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="arrow-ds-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#d79b00;" edge="1" parent="1" source="ds-3" target="ds-4">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="arrow-ds-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#d79b00;" edge="1" parent="1" source="ds-4" target="ds-5">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="arrow-ds-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#d79b00;" edge="1" parent="1" source="ds-5" target="ds-6">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="arrow-ds-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#d79b00;" edge="1" parent="1" source="ds-6" target="ds-7">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="arrow-ds-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#d79b00;" edge="1" parent="1" source="ds-7" target="ds-8">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        
+        <!-- Arrows - ML Flow -->
+        <mxCell id="arrow-ml-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#b85450;" edge="1" parent="1" source="ml-1" target="ml-2">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="arrow-ml-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#b85450;" edge="1" parent="1" source="ml-2" target="ml-3">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="arrow-ml-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#b85450;" edge="1" parent="1" source="ml-3" target="ml-4">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="arrow-ml-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#b85450;" edge="1" parent="1" source="ml-4" target="ml-5">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="arrow-ml-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#b85450;" edge="1" parent="1" source="ml-5" target="ml-6">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="arrow-ml-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#b85450;" edge="1" parent="1" source="ml-6" target="ml-7">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="arrow-ml-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#b85450;" edge="1" parent="1" source="ml-7" target="ml-8">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="arrow-ml-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#b85450;" edge="1" parent="1" source="ml-8" target="ml-9">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        
+        <!-- Arrows - QAT Flow -->
+        <mxCell id="arrow-qat-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#9673a6;" edge="1" parent="1" source="qat-1" target="qat-2">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="arrow-qat-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#9673a6;" edge="1" parent="1" source="qat-2" target="qat-3">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="arrow-qat-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#9673a6;" edge="1" parent="1" source="qat-3" target="qat-4">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="arrow-qat-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#9673a6;" edge="1" parent="1" source="qat-4" target="qat-5">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="arrow-qat-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#9673a6;" edge="1" parent="1" source="qat-5" target="qat-6">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="arrow-qat-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#9673a6;" edge="1" parent="1" source="qat-6" target="qat-7">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="arrow-qat-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#9673a6;" edge="1" parent="1" source="qat-7" target="qat-8">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="arrow-qat-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#9673a6;" edge="1" parent="1" source="qat-8" target="qat-9">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        
+        <!-- Cross-team Interactions -->
+        <!-- PM to DS -->
+        <mxCell id="cross-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#666666;dashed=1;" edge="1" parent="1" source="pm-2" target="ds-1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        
+        <!-- PM to QAT -->
+        <mxCell id="cross-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#666666;dashed=1;" edge="1" parent="1" source="pm-3" target="qat-1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        
+        <!-- DS to ML -->
+        <mxCell id="cross-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#666666;dashed=1;" edge="1" parent="1" source="ds-8" target="ml-1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        
+        <!-- DS to QAT -->
+        <mxCell id="cross-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#666666;dashed=1;" edge="1" parent="1" source="ds-4" target="qat-2">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        
+        <!-- ML to QAT -->
+        <mxCell id="cross-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#666666;dashed=1;" edge="1" parent="1" source="ml-4" target="qat-3">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="cross-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#666666;dashed=1;" edge="1" parent="1" source="ml-7" target="qat-5">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="cross-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#666666;dashed=1;" edge="1" parent="1" source="ml-9" target="qat-6">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        
+        <!-- QAT to PM -->
+        <mxCell id="cross-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#666666;dashed=1;" edge="1" parent="1" source="qat-9" target="pm-7">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        
+        <!-- ML to PM -->
+        <mxCell id="cross-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;strokeColor=#666666;dashed=1;" edge="1" parent="1" source="ml-4" target="pm-6">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        
+        <!-- Legend -->
+        <mxCell id="legend-box" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;opacity=90;" vertex="1" parent="1">
+          <mxGeometry x="1240" y="1060" width="300" height="180" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="legend-title" value="Legend" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="1290" y="1070" width="200" height="30" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="legend-1" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#666666;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1260" y="1110" as="sourcePoint"/>
+            <mxPoint x="1320" y="1110" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        
+        <mxCell id="legend-text-1" value="Sequential Flow" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1330" y="1095" width="120" height="30" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="legend-2" value="" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#666666;dashed=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1260" y="1150" as="sourcePoint"/>
+            <mxPoint x="1320" y="1150" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+        
+        <mxCell id="legend-text-2" value="Cross-team Handoff" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1330" y="1135" width="150" height="30" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="legend-3" value="Iterative Process" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=2;" vertex="1" parent="1">
+          <mxGeometry x="1260" y="1175" width="180" height="30" as="geometry"/>
+        </mxCell>
+        
+        <mxCell id="legend-text-3" value="Many activities involve feedback loops" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="1260" y="1200" width="250" height="30" as="geometry"/>
+        </mxCell>
+        
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
