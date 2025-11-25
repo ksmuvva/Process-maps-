@@ -1,0 +1,184 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="29.1.1">
+  <diagram name="How AI Playwright Framework Works" id="wjS128VBMi0CDO5bMwN3">
+    <mxGraphModel dx="2520" dy="939" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ajf61eaUZl7Ejyw6csL1-1" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=24;fontColor=#1a1a2e;" value="&lt;b&gt;AI Playwright Framework - How It Works&lt;/b&gt;" vertex="1">
+          <mxGeometry height="40" width="600" x="160" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="ajf61eaUZl7Ejyw6csL1-2" parent="1" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;startSize=30;fontStyle=1;fontSize=12;" value="&lt;b&gt;Developer Actions&lt;/b&gt;" vertex="1">
+          <mxGeometry height="140" width="1520" x="-300" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="ajf61eaUZl7Ejyw6csL1-3" parent="1" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;startSize=30;fontStyle=1;fontSize=12;" value="&lt;b&gt;Framework / AI Processing&lt;/b&gt;" vertex="1">
+          <mxGeometry height="200" width="1520" x="-300" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="ajf61eaUZl7Ejyw6csL1-4" parent="1" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;startSize=30;fontStyle=1;fontSize=12;" value="&lt;b&gt;Generated Outputs&lt;/b&gt;" vertex="1">
+          <mxGeometry height="200" width="1520" x="-300" y="510" as="geometry" />
+        </mxCell>
+        <mxCell id="ajf61eaUZl7Ejyw6csL1-5" parent="1" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;startSize=30;fontStyle=1;fontSize=12;" value="&lt;b&gt;Test Execution&lt;/b&gt;" vertex="1">
+          <mxGeometry height="140" width="1520" x="-300" y="710" as="geometry" />
+        </mxCell>
+        <mxCell id="ajf61eaUZl7Ejyw6csL1-6" parent="1" style="text;html=1;strokeColor=#b85450;fillColor=#f8cecc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=10;fontColor=#b85450;" value="&lt;b&gt;PHASE 1&lt;/b&gt;&lt;br&gt;Setup" vertex="1">
+          <mxGeometry height="30" width="160" x="-260" y="850" as="geometry" />
+        </mxCell>
+        <mxCell id="ajf61eaUZl7Ejyw6csL1-7" parent="1" style="text;html=1;strokeColor=#b85450;fillColor=#f8cecc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=10;fontColor=#b85450;" value="&lt;b&gt;PHASE 2&lt;/b&gt;&lt;br&gt;Record" vertex="1">
+          <mxGeometry height="30" width="160" y="850" as="geometry" />
+        </mxCell>
+        <mxCell id="ajf61eaUZl7Ejyw6csL1-8" parent="1" style="text;html=1;strokeColor=#b85450;fillColor=#f8cecc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=10;fontColor=#b85450;" value="&lt;b&gt;PHASE 3&lt;/b&gt;&lt;br&gt;Convert" vertex="1">
+          <mxGeometry height="30" width="200" x="240" y="850" as="geometry" />
+        </mxCell>
+        <mxCell id="ajf61eaUZl7Ejyw6csL1-9" parent="1" style="text;html=1;strokeColor=#b85450;fillColor=#f8cecc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=10;fontColor=#b85450;" value="&lt;b&gt;PHASE 4&lt;/b&gt;&lt;br&gt;Generate BDD + POM" vertex="1">
+          <mxGeometry height="30" width="280" x="520" y="850" as="geometry" />
+        </mxCell>
+        <mxCell id="ajf61eaUZl7Ejyw6csL1-10" parent="1" style="text;html=1;strokeColor=#b85450;fillColor=#f8cecc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=10;fontColor=#b85450;" value="&lt;b&gt;PHASE 5&lt;/b&gt;&lt;br&gt;Execute" vertex="1">
+          <mxGeometry height="30" width="280" x="880" y="850" as="geometry" />
+        </mxCell>
+        <mxCell id="ajf61eaUZl7Ejyw6csL1-11" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1a73e8;strokeColor=#0d5bdd;fontColor=#ffffff;shadow=1;" value="&lt;b&gt;1. Install Framework&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size: 9px&quot;&gt;npm install -g&lt;br&gt;playwright-ai-framework&lt;/font&gt;" vertex="1">
+          <mxGeometry height="70" width="140" x="-260" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="ajf61eaUZl7Ejyw6csL1-12" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1a73e8;strokeColor=#0d5bdd;fontColor=#ffffff;shadow=1;" value="&lt;b&gt;2. Create Project&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size: 9px&quot;&gt;mkdir my-tests&lt;br&gt;cd my-tests&lt;/font&gt;" vertex="1">
+          <mxGeometry height="70" width="140" x="-80" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="ajf61eaUZl7Ejyw6csL1-13" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1a73e8;strokeColor=#0d5bdd;fontColor=#ffffff;shadow=1;" value="&lt;b&gt;3. Record Test&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size: 9px&quot;&gt;playwright codegen&lt;br&gt;demo-site.com&lt;/font&gt;" vertex="1">
+          <mxGeometry height="70" width="140" x="100" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="ajf61eaUZl7Ejyw6csL1-14" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1a73e8;strokeColor=#0d5bdd;fontColor=#ffffff;shadow=1;" value="&lt;b&gt;4. Run Conversion&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size: 9px&quot;&gt;playwright-ai convert&lt;br&gt;recordings/login.py&lt;/font&gt;" vertex="1">
+          <mxGeometry height="70" width="160" x="280" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="ajf61eaUZl7Ejyw6csL1-15" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1a73e8;strokeColor=#0d5bdd;fontColor=#ffffff;shadow=1;" value="&lt;b&gt;8. Run Tests&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size: 9px&quot;&gt;behave features/&lt;br&gt;--tags=@smoke&lt;/font&gt;" vertex="1">
+          <mxGeometry height="70" width="140" x="1000" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="ajf61eaUZl7Ejyw6csL1-16" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#34a853;strokeColor=#2d8a47;fontColor=#ffffff;shadow=1;" value="&lt;b&gt;Parse Python Script&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size: 9px&quot;&gt;Extract actions:&lt;br&gt;• page.goto()&lt;br&gt;• page.fill()&lt;br&gt;• page.click()&lt;/font&gt;" vertex="1">
+          <mxGeometry height="100" width="140" x="280" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="ajf61eaUZl7Ejyw6csL1-17" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ea4335;strokeColor=#c5221f;fontColor=#ffffff;shadow=1;strokeWidth=3;" value="&lt;b&gt;🧠 AI Conversion&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size: 9px&quot;&gt;Claude API with&lt;br&gt;Structured Output&lt;br&gt;&lt;br&gt;tool_choice: forced&lt;/font&gt;" vertex="1">
+          <mxGeometry height="120" width="160" x="460" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="ajf61eaUZl7Ejyw6csL1-18" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#34a853;strokeColor=#2d8a47;fontColor=#ffffff;shadow=1;" value="&lt;b&gt;Generate Artifacts&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size: 9px&quot;&gt;• Feature files&lt;br&gt;• Step definitions&lt;br&gt;• Page objects&lt;br&gt;• Test data&lt;/font&gt;" vertex="1">
+          <mxGeometry height="100" width="140" x="660" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="ajf61eaUZl7Ejyw6csL1-19" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#34a853;strokeColor=#2d8a47;fontColor=#ffffff;shadow=1;" value="&lt;b&gt;Inject to Framework&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size: 9px&quot;&gt;Write files to:&lt;br&gt;features/&lt;br&gt;pages/&lt;br&gt;fixtures/&lt;/font&gt;" vertex="1">
+          <mxGeometry height="100" width="140" x="840" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="ajf61eaUZl7Ejyw6csL1-20" parent="1" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fillColor=#fff2cc;strokeColor=#d6b656;shadow=1;" value="&lt;b&gt;📄 recordings/&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size: 9px&quot;&gt;login_test.py&lt;br&gt;&lt;font color=&quot;#666666&quot;&gt;(Playwright Python)&lt;/font&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="80" width="120" x="110" y="560" as="geometry" />
+        </mxCell>
+        <mxCell id="ajf61eaUZl7Ejyw6csL1-21" parent="1" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fillColor=#fff2cc;strokeColor=#d6b656;shadow=1;" value="&lt;b&gt;📗 features/&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size: 9px&quot;&gt;login.feature&lt;br&gt;&lt;font color=&quot;#666666&quot;&gt;(Gherkin BDD)&lt;/font&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="80" width="120" x="520" y="540" as="geometry" />
+        </mxCell>
+        <mxCell id="ajf61eaUZl7Ejyw6csL1-22" parent="1" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fillColor=#fff2cc;strokeColor=#d6b656;shadow=1;" value="&lt;b&gt;🐍 steps/&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size: 9px&quot;&gt;login_steps.py&lt;br&gt;&lt;font color=&quot;#666666&quot;&gt;(Behave Steps)&lt;/font&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="80" width="120" x="660" y="540" as="geometry" />
+        </mxCell>
+        <mxCell id="ajf61eaUZl7Ejyw6csL1-23" parent="1" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fillColor=#fff2cc;strokeColor=#d6b656;shadow=1;" value="&lt;b&gt;📦 pages/&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size: 9px&quot;&gt;login_page.py&lt;br&gt;&lt;font color=&quot;#666666&quot;&gt;(POM Classes)&lt;/font&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="80" width="120" x="660" y="630" as="geometry" />
+        </mxCell>
+        <mxCell id="ajf61eaUZl7Ejyw6csL1-24" parent="1" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fillColor=#fff2cc;strokeColor=#d6b656;shadow=1;" value="&lt;b&gt;📊 fixtures/&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size: 9px&quot;&gt;test_data.json&lt;br&gt;&lt;font color=&quot;#666666&quot;&gt;(Test Data)&lt;/font&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="80" width="120" x="520" y="630" as="geometry" />
+        </mxCell>
+        <mxCell id="ajf61eaUZl7Ejyw6csL1-25" parent="1" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fillColor=#fff2cc;strokeColor=#d6b656;shadow=1;" value="&lt;b&gt;⚙️ environment.py&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size: 9px&quot;&gt;Browser hooks&lt;br&gt;&lt;font color=&quot;#666666&quot;&gt;(Setup/Teardown)&lt;/font&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="80" width="120" x="800" y="585" as="geometry" />
+        </mxCell>
+        <mxCell id="ajf61eaUZl7Ejyw6csL1-26" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#9673a6;strokeColor=#7b5d90;fontColor=#ffffff;shadow=1;" value="&lt;b&gt;Behave Runner&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size: 9px&quot;&gt;Executes features&lt;br&gt;with Playwright&lt;/font&gt;" vertex="1">
+          <mxGeometry height="70" width="140" x="840" y="755" as="geometry" />
+        </mxCell>
+        <mxCell id="ajf61eaUZl7Ejyw6csL1-27" parent="1" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#9673a6;strokeColor=#7b5d90;fontColor=#ffffff;shadow=1;" value="&lt;b&gt;📊 Test Report&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size: 9px&quot;&gt;Pass/Fail Results&lt;br&gt;Screenshots&lt;/font&gt;" vertex="1">
+          <mxGeometry height="80" width="140" x="1020" y="750" as="geometry" />
+        </mxCell>
+        <mxCell id="ajf61eaUZl7Ejyw6csL1-28" edge="1" parent="1" source="ajf61eaUZl7Ejyw6csL1-11" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#1a73e8;" target="ajf61eaUZl7Ejyw6csL1-12" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ajf61eaUZl7Ejyw6csL1-29" edge="1" parent="1" source="ajf61eaUZl7Ejyw6csL1-12" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#1a73e8;" target="ajf61eaUZl7Ejyw6csL1-13" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ajf61eaUZl7Ejyw6csL1-30" edge="1" parent="1" source="ajf61eaUZl7Ejyw6csL1-13" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#1a73e8;" target="ajf61eaUZl7Ejyw6csL1-14" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ajf61eaUZl7Ejyw6csL1-31" edge="1" parent="1" source="ajf61eaUZl7Ejyw6csL1-13" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#d6b656;dashed=1;" target="ajf61eaUZl7Ejyw6csL1-20" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ajf61eaUZl7Ejyw6csL1-32" edge="1" parent="1" source="ajf61eaUZl7Ejyw6csL1-14" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#34a853;" target="ajf61eaUZl7Ejyw6csL1-16" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ajf61eaUZl7Ejyw6csL1-33" edge="1" parent="1" source="ajf61eaUZl7Ejyw6csL1-16" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#34a853;" target="ajf61eaUZl7Ejyw6csL1-17" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ajf61eaUZl7Ejyw6csL1-34" edge="1" parent="1" source="ajf61eaUZl7Ejyw6csL1-17" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#34a853;" target="ajf61eaUZl7Ejyw6csL1-18" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ajf61eaUZl7Ejyw6csL1-35" edge="1" parent="1" source="ajf61eaUZl7Ejyw6csL1-18" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#34a853;" target="ajf61eaUZl7Ejyw6csL1-19" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ajf61eaUZl7Ejyw6csL1-36" edge="1" parent="1" source="ajf61eaUZl7Ejyw6csL1-18" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#d6b656;dashed=1;" target="ajf61eaUZl7Ejyw6csL1-21" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ajf61eaUZl7Ejyw6csL1-37" edge="1" parent="1" source="ajf61eaUZl7Ejyw6csL1-18" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#d6b656;dashed=1;" target="ajf61eaUZl7Ejyw6csL1-22" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ajf61eaUZl7Ejyw6csL1-38" edge="1" parent="1" source="ajf61eaUZl7Ejyw6csL1-19" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#1a73e8;" target="ajf61eaUZl7Ejyw6csL1-15" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ajf61eaUZl7Ejyw6csL1-39" edge="1" parent="1" source="ajf61eaUZl7Ejyw6csL1-15" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#9673a6;" target="ajf61eaUZl7Ejyw6csL1-26" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ajf61eaUZl7Ejyw6csL1-40" edge="1" parent="1" source="ajf61eaUZl7Ejyw6csL1-26" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#9673a6;" target="ajf61eaUZl7Ejyw6csL1-27" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ajf61eaUZl7Ejyw6csL1-41" edge="1" parent="1" source="ajf61eaUZl7Ejyw6csL1-21" style="endArrow=classic;html=1;strokeWidth=2;strokeColor=#d6b656;dashed=1;" target="ajf61eaUZl7Ejyw6csL1-26" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry" />
+        </mxCell>
+        <mxCell id="ajf61eaUZl7Ejyw6csL1-42" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;dashed=1;" value="" vertex="1">
+          <mxGeometry height="90" width="300" x="-300" y="890" as="geometry" />
+        </mxCell>
+        <mxCell id="ajf61eaUZl7Ejyw6csL1-43" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" value="&lt;b&gt;Legend&lt;/b&gt;" vertex="1">
+          <mxGeometry height="20" width="80" x="-290" y="895" as="geometry" />
+        </mxCell>
+        <mxCell id="ajf61eaUZl7Ejyw6csL1-44" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1a73e8;strokeColor=#0d5bdd;" value="" vertex="1">
+          <mxGeometry height="15" width="20" x="-290" y="920" as="geometry" />
+        </mxCell>
+        <mxCell id="ajf61eaUZl7Ejyw6csL1-45" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;" value="Developer Action" vertex="1">
+          <mxGeometry height="20" width="80" x="-265" y="918" as="geometry" />
+        </mxCell>
+        <mxCell id="ajf61eaUZl7Ejyw6csL1-46" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#34a853;strokeColor=#2d8a47;" value="" vertex="1">
+          <mxGeometry height="15" width="20" x="-180" y="920" as="geometry" />
+        </mxCell>
+        <mxCell id="ajf61eaUZl7Ejyw6csL1-47" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;" value="Framework Processing" vertex="1">
+          <mxGeometry height="20" width="100" x="-155" y="918" as="geometry" />
+        </mxCell>
+        <mxCell id="ajf61eaUZl7Ejyw6csL1-48" parent="1" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="" vertex="1">
+          <mxGeometry height="15" width="20" x="-290" y="945" as="geometry" />
+        </mxCell>
+        <mxCell id="ajf61eaUZl7Ejyw6csL1-49" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;" value="Generated File" vertex="1">
+          <mxGeometry height="20" width="70" x="-265" y="943" as="geometry" />
+        </mxCell>
+        <mxCell id="ajf61eaUZl7Ejyw6csL1-50" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ea4335;strokeColor=#c5221f;" value="" vertex="1">
+          <mxGeometry height="15" width="20" x="-180" y="945" as="geometry" />
+        </mxCell>
+        <mxCell id="ajf61eaUZl7Ejyw6csL1-51" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;" value="AI Processing (Claude)" vertex="1">
+          <mxGeometry height="20" width="100" x="-155" y="943" as="geometry" />
+        </mxCell>
+        <mxCell id="ajf61eaUZl7Ejyw6csL1-52" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e6f3ff;strokeColor=#1a73e8;dashed=1;" value="" vertex="1">
+          <mxGeometry height="90" width="400" x="20" y="890" as="geometry" />
+        </mxCell>
+        <mxCell id="ajf61eaUZl7Ejyw6csL1-53" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" value="&lt;b&gt;Key Technologies&lt;/b&gt;" vertex="1">
+          <mxGeometry height="20" width="120" x="30" y="895" as="geometry" />
+        </mxCell>
+        <mxCell id="ajf61eaUZl7Ejyw6csL1-54" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;" value="• &lt;b&gt;Recording:&lt;/b&gt; Playwright Codegen (Python)&lt;br&gt;• &lt;b&gt;AI Engine:&lt;/b&gt; Claude claude-sonnet-4-20250514 + Structured Output&lt;br&gt;• &lt;b&gt;BDD Framework:&lt;/b&gt; Behave (Python)&lt;br&gt;• &lt;b&gt;Pattern:&lt;/b&gt; Page Object Model (POM)" vertex="1">
+          <mxGeometry height="60" width="380" x="30" y="915" as="geometry" />
+        </mxCell>
+        <mxCell id="ajf61eaUZl7Ejyw6csL1-55" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f0f0f0;strokeColor=#666666;dashed=1;" value="" vertex="1">
+          <mxGeometry height="90" width="380" x="440" y="890" as="geometry" />
+        </mxCell>
+        <mxCell id="ajf61eaUZl7Ejyw6csL1-56" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" value="&lt;b&gt;Quick Start Commands&lt;/b&gt;" vertex="1">
+          <mxGeometry height="20" width="150" x="450" y="895" as="geometry" />
+        </mxCell>
+        <mxCell id="ajf61eaUZl7Ejyw6csL1-57" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;" value="&lt;font face=&quot;Courier New&quot;&gt;npm install -g playwright-ai-framework&lt;br&gt;playwright codegen https://demo-site.com&lt;br&gt;playwright-ai convert recordings/test.py&lt;br&gt;behave features/ --tags=@smoke&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="360" x="450" y="915" as="geometry" />
+        </mxCell>
+        <mxCell id="ajf61eaUZl7Ejyw6csL1-58" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=9;fontColor=#999999;" value="v1.0 | November 2025 | github.com/ksmuvva/ai-playwright-framework" vertex="1">
+          <mxGeometry height="20" width="350" x="860" y="890" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
